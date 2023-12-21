@@ -3,9 +3,6 @@ import { CompetitionsComponent } from "./Modules/competitions/competitions.compo
 
 export const routes: Routes = [
   {
-    path: '', component: CompetitionsComponent
-  },
-  {
     path: 'competitions', component: CompetitionsComponent
   }
 ];
