@@ -4,5 +4,8 @@ import { CompetitionsComponent } from "./Modules/competitions/competitions.compo
 export const routes: Routes = [
   {
     path: 'competitions', component: CompetitionsComponent
+  },
+  {
+    path: 'competitions/create', component: CompetitionsComponent
   }
 ];
