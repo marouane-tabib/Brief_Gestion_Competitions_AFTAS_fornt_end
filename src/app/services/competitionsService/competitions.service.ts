@@ -11,8 +11,8 @@ export class CompetitionsService {
 
   constructor(private http:HttpClient) {}
 
-  getAllDevis(): any{
-      return this.http.get(this.url + '/devis/devis');
+  getAllCompetitions(): any{
+    return this.http.get(this.url + '/competitions');
   }
 
 }
