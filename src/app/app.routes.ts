@@ -7,5 +7,11 @@ export const routes: Routes = [
   },
   {
     path: 'competitions/create', component: CompetitionsComponent
+  },
+  {
+    path: 'competitions/add-member', component: CompetitionsComponent
+  },
+  {
+    path: 'podium', component: CompetitionsComponent
   }
 ];
